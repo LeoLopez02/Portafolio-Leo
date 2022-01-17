@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(/imagenes/background.png);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #181616;
+  font-size: 1.2rem;
+}
+
+nav p {
+  margin-bottom: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 1rem;
+}
+
+nav a:hover {
+  background: grey;
+  color: black;
+  font-weight: 600;
+}
+
+nav .logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #c91414;
+}
+
+nav .logo span {
+  color: grey;
+}
+
+nav .elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20%;
+}
+
+nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+nav .right a {
+  color: #fd1b1b;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+nav .left {
+  margin-left: 10%;
+}
+
+.home {
+  height: 100vh;
+  background: rgba(0, 74, 170, 0.4);
+  position: relative;
+  padding: 10%;
+}
+
+.home h1 {
+  color: #f7f7f7;
+  font-size: 4rem;
+}
+
+.home h3 {
+  color: #f7f7f7;
+}
+
+.home .text {
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem 0;
+  color: #ffff;
+}
+
+.home img {
+  height: 280px;
+}
+
+.home button {
+  padding: 20px 185px 20px 185px;
+  margin-left: 30%;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: #4f90d1;
+}
+
+.redes {
+  width: 100%;
+  padding: 2rem;
+  background: #4f90d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redes__icon {
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 1rem;
+  -webkit-transition: font-size 0.1s ease-in-out;
+  transition: font-size 0.1s ease-in-out;
+}
+
+.redes__icon:hover {
+  color: orangered;
+  -webkit-transform: all scale(0.1);
+          transform: all scale(0.1);
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */

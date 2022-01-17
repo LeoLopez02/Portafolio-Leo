@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// HTML Tags
+body {
+  background-image: url(/imagenes/background.png);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+// Barra de navegacion
+nav {
+  display: flex;
+  background: rgb(24, 22, 22);
+  font-size: 1.2rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 1rem;
+  }
+
+  a:hover {
+    background: grey;
+    color: black;
+    font-weight: 600;
+  }
+
+  .logo {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(201, 20, 20);
+
+    span {
+      color: grey;
+    }
+  }
+
+  .elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-size: 1rem;
+
+    a {
+      color: rgb(253, 27, 27);
+      font-weight: 800;
+      padding: 1rem;
+    }
+  }
+
+  .left {
+    margin-left: 10%;
+  }
+}
+
+// Home
+.home {
+  height: 100vh;
+  background: rgba(0, 74, 170, 0.4);
+  position: relative;
+  padding: 10%;
+
+  h1 {
+    color: rgb(247, 247, 247);
+    font-size: 4rem;
+  }
+  h3 {
+    color: rgb(247, 247, 247);
+  }
+
+  .text {
+    font-size: 1.2rem;
+    margin: 1rem 0 1rem 0;
+    color: #ffff;
+  }
+
+  img {
+    height: 280px;
+  }
+
+  button {
+    padding: 20px 185px 20px 185px;
+    margin-left: 30%;
+  }
+}
+
+// About me
+.about {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+}
+// Contact
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: rgb(79, 144, 209);
+}
+
+// Pie de pagina
+.redes {
+  width: 100%;
+  padding: 2rem;
+  background: rgb(79, 144, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 1rem;
+    transition: font-size 0.1s ease-in-out;
+  }
+
+  &__icon:hover {
+    color: orangered;
+    transform: all scale(0.1);
+    font-size: 1.5rem;
+  }
+}
