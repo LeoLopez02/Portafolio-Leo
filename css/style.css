@@ -15,82 +15,58 @@ h1 {
   font-size: 3rem;
 }
 
-nav {
+.navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #181616;
   font-size: 1.2rem;
 }
 
-nav p {
+.navbar p {
   margin-bottom: 0;
 }
 
-nav a {
+.navbar a {
   text-decoration: none;
   color: #ffff;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
-nav a:hover {
+.navbar a:hover {
   background: grey;
-  color: black;
+  color: #0c0b0b;
   font-weight: 600;
 }
 
-nav .logo {
+.navbar .logo {
   font-size: 2rem;
   font-weight: 800;
   color: #c91414;
+  margin-left: 3.125rem;
 }
 
-nav .logo span {
+.navbar .logo span {
   color: grey;
-}
-
-nav .elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 20%;
-}
-
-nav .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: auto;
-  font-size: 1rem;
-}
-
-nav .right a {
-  color: #fd1b1b;
-  font-weight: 800;
-  padding: 1rem;
-}
-
-nav .left {
-  margin-left: 10%;
 }
 
 .home {
   height: 100vh;
+  width: 100%;
   background: rgba(0, 74, 170, 0.4);
-  position: relative;
-  padding: 10%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .home h1 {
@@ -114,25 +90,130 @@ nav .left {
 
 .home button {
   padding: 20px 185px 20px 185px;
-  margin-left: 30%;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 2rem;
+}
+
+.home_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.home_image {
+  margin-left: 2rem;
+}
+
+.home_button {
+  margin-right: 2rem;
 }
 
 .about {
-  width: 100%;
   height: 100vh;
-  background: white;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about h1 {
+  color: black;
+  font-size: 4rem;
+}
+
+.about h3 {
+  color: #1d1d1d;
+}
+
+.about img {
+  height: 280px;
+}
+
+.about_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0 1rem 0;
+  color: black;
 }
 
 .contact {
-  width: 100%;
   height: 100vh;
-  background: #4f90d1;
+  width: 100%;
+  background: rgba(0, 74, 170, 0.4);
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.redes {
+.contact h1 {
+  color: #f7f7f7;
+  font-size: 4rem;
+}
+
+.contact h3,
+.contact h4 {
+  color: #f7f7f7;
+}
+
+.contact_form {
+  color: #ffff;
+}
+
+footer {
   width: 100%;
-  padding: 2rem;
-  background: #4f90d1;
+  background: #181616;
+  font-size: 0.75rem;
+}
+
+footer .footer_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .rights {
+  margin-top: 1rem;
+}
+
+footer .redes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,9 +223,10 @@ nav .left {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #ffff;
 }
 
-.redes__icon {
+footer .redes__icon {
   display: inline-block;
   font-size: 1.25rem;
   margin: 1rem;
@@ -152,10 +234,14 @@ nav .left {
   transition: font-size 0.1s ease-in-out;
 }
 
-.redes__icon:hover {
+footer .redes__icon:hover {
   color: orangered;
   -webkit-transform: all scale(0.1);
           transform: all scale(0.1);
   font-size: 1.5rem;
+}
+
+footer .text {
+  color: #ffff;
 }
 /*# sourceMappingURL=style.css.map */

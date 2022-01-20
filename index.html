@@ -23,89 +23,122 @@
   <body>
     <!-- Barra de navegacion -->
     <nav>
-      <div class="left">
-        <p class="logo">Leo<span>Tutory</span></p>
-      </div>
-      <div class="elements">
-        <a class="elements_items" href="home">Home</a>
-        <a class="elements_items" href="about">About Me</a>
-        <a class="elements_items" href="contact">Contact Me</a>
-      </div>
-      <div class="right">
-        <a class="elements_items" href="login">Log in</a>
-        <a class="elements_items" href="signup">Sign Up</a>
+      <div class="navbar">
+        <div class="brand">
+          <p class="logo">Leo<span>Tutory</span></p>
+        </div>
+        <div class="items">
+          <a href="home">Home</a>
+          <a href="about">About Me</a>
+          <a href="contact">Contact Me</a>
+        </div>
+        <div class="sesion">
+          <a href="login">Log in</a>
+          <a href="signup">Sign Up</a>
+        </div>
       </div>
     </nav>
     <main>
       <div class="home">
         <div class="container">
-          <h1>Welcome to LeoTutory</h1>
-          <h3>The best gaming and coding web page!</h3>
+          <div class="home_text">
+            <h1>Welcome to LeoTutory</h1>
+            <h3>The best gaming and coding web page!</h3>
 
-          <div class="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eius
-            magni, perspiciatis eaque asperiores esse sunt iusto? Repellendus
-            quibusdam nesciunt fuga? Vitae inventore voluptas accusantium quo
-            quos tenetur, omnis est consequatur eaque! Deleniti, neque numquam
-            doloremque incidunt provident officia facere dolores minus, quasi
-            sunt pariatur!
+            <div class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eius
+              magni, perspiciatis eaque asperiores esse sunt iusto? Repellendus
+              quibusdam nesciunt fuga? Vitae inventore voluptas accusantium quo
+              quos tenetur, omnis est consequatur eaque! Deleniti, neque numquam
+              doloremque incidunt provident officia facere dolores minus, quasi
+              sunt pariatur!
+            </div>
           </div>
-          <img src="./imagenes/Computer.svg" alt="ilustration of pc" />
-          <button class="btn btn-primary">Go now!</button>
+          <div class="home_flex">
+            <div class="home_image">
+              <img src="./imagenes/Computer.svg" alt="ilustration of pc" />
+            </div>
+            <div class="home_button">
+              <button class="btn btn-primary">Go now!</button>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="about">
-        <h1 class="aboutme">About Me</h1>
-        <p>Leonel <spam>López</spam></p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem
-          atque, quibusdam dolorum quos excepturi quae laudantium animi quis
-          similique mollitia modi architecto asperiores ipsam. Dolore optio,
-          amet minus eum asperiores iusto consequatur placeat animi?
-        </p>
+        <div class="container">
+          <h1 class="aboutme">About Me</h1>
+          <div class="bio">
+            <h3>Leonel <spam>López</spam></h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              quidem atque, quibusdam dolorum quos excepturi quae laudantium
+              animi quis similique mollitia modi architecto asperiores ipsam.
+              Dolore optio, amet minus eum asperiores iusto consequatur placeat
+              animi?
+            </p>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem qui ea sint minus obcaecati, adipisci repellat at iure
-          quam aliquid asperiores magnam! Voluptates?
-        </p>
-        <img src="" alt="miimagen" />
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem qui ea sint minus obcaecati, adipisci repellat at
+              iure quam aliquid asperiores magnam! Voluptates?
+            </p>
+          </div>
+          <div class="about_image">
+            <img src="./imagenes/LogoTerminado.png" alt="miimagen" />
+          </div>
+        </div>
       </div>
-      <div class="contact">
-        <p>Leonel <strong>López</strong></p>
-        <p>+1 (809) 590-5555</p>
-        <p>leonellopez.opx@gmail.com</p>
 
-        <form action="post">
-          <label for="">Nombre: </label>
-          <input type="text" />
-          <label for="">Apellido: </label>
-          <input type="text" />
-          <label for="">Menaje:</label>
-          <textarea name="" id="" cols="30" rows="5"></textarea>
-          <button>Enviar</button>
-        </form>
+      <div class="contact">
+        <div class="container">
+          <h3>Leonel <strong>López</strong></h3>
+          <h4>
+            <p>+1 (809) 590-5555</p>
+            <p>leonellopez.opx@gmail.com</p>
+          </h4>
+
+          <div class="contact_form">
+            <form action="post">
+              <label for="">Nombre: </label>
+              <input type="text" />
+              <label for="">Apellido: </label>
+              <input type="text" />
+              <label for="">Menaje:</label>
+              <textarea name="" id="" cols="30" rows="5"></textarea>
+              <button>Enviar</button>
+            </form>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
-      <div class="redes">
-        <div class="redes__icon">
-          <i class="bi bi-facebook"></i>
+      <div class="container">
+        <div class="footer_flex">
+          <div class="rights">
+            <p class="text">All rights reserve to LeoTutory 2022-2024.</p>
+            <p class="text">Follow my social media for more content!</p>
+          </div>
         </div>
-        <div class="redes__icon">
-          <i class="bi bi-twitter"></i>
-        </div>
-        <div class="redes__icon">
-          <i class="bi bi-instagram"></i>
-        </div>
-        <div class="redes__icon">
-          <i class="bi bi-telegram"></i>
-        </div>
-        <div class="redes__icon">
-          <i class="bi bi-discord"></i>
-        </div>
-        <div class="redes__icon">
-          <i class="bi bi-github"></i>
+        <div class="redes">
+          <div class="redes__icon">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <div class="redes__icon">
+            <i class="bi bi-twitter"></i>
+          </div>
+          <div class="redes__icon">
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="redes__icon">
+            <i class="bi bi-telegram"></i>
+          </div>
+          <div class="redes__icon">
+            <i class="bi bi-discord"></i>
+          </div>
+          <div class="redes__icon">
+            <i class="bi bi-github"></i>
+          </div>
         </div>
       </div>
     </footer>
